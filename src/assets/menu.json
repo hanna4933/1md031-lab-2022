@@ -1,0 +1,32 @@
+
+
+[
+    {
+        "name": "Kikärtsburgare",
+        "burgerPrice": 149,
+        "img" : "https://resources.mynewsdesk.com/image/upload/f_auto,t_limit_1000/fe6yt94umayztvcruy9x.jpg",
+        "content1" : "Kikärtor",
+        "content2" :"Lök",
+        "content3" :"Träpinne**",
+        "allergenes": "Nötter"
+    },
+
+    {
+        "name": "Zucchiniburgare",
+        "burgerPrice": 125,
+        "img" : "https://resources.mynewsdesk.com/image/upload/ar_16:9,c_fill,dpr_auto,f_auto,g_auto,q_auto:good,w_1782/fuld1fyerv4iqjpbrqsn",
+        "content1" : "Zucchini",
+        "content2" :"Sås",
+        "content3" :"Träpinne**",
+        "allergenes": "Gluten"
+    },
+    {
+        "name": "Quornburgare",
+        "burgerPrice": 179,
+        "img" : "https://resources.mynewsdesk.com/image/upload/f_auto,t_limit_1000/usuqjsfqe2anhcdvjgqa.jpg",
+        "content1" : "Quorn",
+        "content2" :"Paprika",
+        "content3" :"Ledsen Ruccola",
+        "allergenes": "Soja"
+    }
+]

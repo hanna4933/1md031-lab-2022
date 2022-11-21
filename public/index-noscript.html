@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+       
+    <title>Hannas restaurang</title>
+        >
+        <meta charset="utf-8" />
+       
+   
+    
+</head>
+
+<body>
+    <header class="header">
+       
+        <img src="https://www.nps.gov/dena/learn/nature/images/spore-plants-header-960x350.jpg?maxwidth=1200&maxheight=1200&autorotate=false" class="header_img" id="headerpic">
+       
+        <h1 id="headertext">Välkommen till Green Burger </h1>
+        
+       
+    </header>
+    <section id="bm">
+        <h3> Vår meny </h3>
+        <p> Vår meny består av vegetariska och ekologiska produkter, för att du och vår planet ska må bra.</p>
+
+    <div class="burgarmeny">
+        
+        <div class="burgare1">
+            <h4>Kikärtsburgare</h4>
+            <img src="https://resources.mynewsdesk.com/image/upload/f_auto,t_limit_1000/fe6yt94umayztvcruy9x.jpg"
+                alt="burgare1" title="Kikärtsburgare" style="width: 200px;">
+            <h5> Innehåll:*</h5>
+            <ul>
+                <li> Kikärtor</li>
+                <li> Lök</li>
+                <li> Träpinne**</li>
+            </ul>
+            <section class="allergener">
+                <p>
+                <h5> Allergener: </h5>
+                <span id="id1">
+                    <ul>
+                        <li> Nötter</li>
+                        <li> Gluten </li>
+                    </ul>
+                </span>
+                </p>
+            </section>
+        </div>
+        <div class="burgare2">
+            <h4>Zucchiniburgare</h4>
+            <img src="https://resources.mynewsdesk.com/image/upload/ar_16:9,c_fill,dpr_auto,f_auto,g_auto,q_auto:good,w_1782/fuld1fyerv4iqjpbrqsn"
+                alt="burgare" title="Zucchiniburgare" style="width: 200px;">
+            <h5> Innehåll:*</h5>
+            <ul>
+                <li> Zucchini</li>
+                <li> Sås </li>
+                <li> Träpinne**</li>
+            </ul>
+            <section class="allergener">
+
+                <span id="id2">
+                    <h5> Allergener: </h5>
+                    <ul>
+                        <li> Frön</li>
+                        <li> Gluten </li>
+                    </ul>
+                </span>
+                </p>
+            </section>
+
+        </div>
+        <div class="burgare3">
+            <h4>Quornburgare</h4>
+            <img src="https://resources.mynewsdesk.com/image/upload/f_auto,t_limit_1000/usuqjsfqe2anhcdvjgqa.jpg"
+                alt="burgare" title="Quornburgare" style="width: 200px;">
+            <h5> Innehåll:*</h5>
+            <ul>
+                <li> Quorn</li>
+                <li> Paprika</li>
+                <li>Ledsen ruccola</li>
+            </ul>
+            <section class="allergener">
+                <p>
+                
+                <span id="id3">
+                    <h5> Allergener: </h5>
+                    <ul>
+                        <li> Soja</li>
+                        <li> Laktos</li>
+                    </ul>
+                </span>
+                </p>
+            </section>
+
+        </div>
+    </div>
+        <p> * Alla ingridenser är ekologiska <br>
+            ** Kan ej ätas</p>
+
+    </section>
+    <section id="info">
+        <h3> Leveransadress </h3>
+        <p> För tillfället leverar vi enbart med cykelbud och räckvidden är därmed begränsad.</p>
+        <p>
+            <label for="namn">Namn </label><br>
+            <input type="text" id="namn" name="n" required="required" placeholder="För- och Efternamn">
+        </p>
+
+        <p>
+            <label for="email">E-mail </label><br>
+            <input type="email" id="email" name="em" required="required" placeholder="E-mail adress">
+        </p>
+        <p>
+            <label for="Address"> Gatuadress</label><br>
+            <input type="text" id="gatuadress" name="ga" required="required" placeholder="Gatuadress">
+        </p>
+        <p>
+            <label for="gatunummer"> Gatunummer</label><br>
+            <input type="number" id="gatunummer" name="gn" required="required" placeholder="(Enbart nummer) ">
+        </p>
+
+    
+    </section>
+    <section id="pf">
+        <h3> Personlig information</h3>
+        <input type="radio" id="kvinna" name="kön" value="Kvinna" checked="checked">
+        <label for="kvinna">Kvinna</label>
+        <input type="radio" id="man" name="kön" value="Man">
+        <label for="man">Inte kvinna</label>
+        <input type="radio" id="annat" name="kön" value="Annat">
+        <label for="Annat">Vill inte ange</label>
+    
+        <p>
+            <label for="betalsätt">Betalsätt</label>
+            <be>
+                <select id="betalsätt" name="bts">
+                    <option>Kort</option>
+                    <option>Swish</option>
+                    <option>Faktura</option>
+                    <option>Kontant (endast vid upphämtning)</option>
+                </select>
+        </p>
+    </section>
+    <button type="submit">
+        <img src="https://as1.ftcdn.net/v2/jpg/03/60/20/26/1000_F_360202679_aDj3vV839TyYiFfMuFRppEWEbVbWrOLH.jpg"
+            style="width: 20px;">
+        Skicka beställning
+    </button>
+    <hr>
+    <footer>
+
+        Adress: Uppsalagatan 1 <br>
+        Tel: 123456789 <br>
+        &copy; 2022 Green Burger Paradise
+    </footer>
+</body>
+
+</html>
