@@ -1,1 +1,62 @@
-/*empty*/
+body{
+    font-family: arial;
+    font-size: 20px;
+    
+    
+}
+
+header{
+    margin: 20px 20px;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    
+}
+#headerpic{
+    opacity: 70%;
+}
+#headertext{
+    position: absolute;
+    color: rgb(13, 65, 13);
+    margin: 20px;
+    margin-top: -300px;
+}
+
+.allergener{
+    font-weight: bold;
+    color: red;
+}
+#bm{
+    background-color: black;
+    color: green;
+    border: 10px Ridge green;
+    padding: 20px;
+    
+}
+#info{
+    border: 3px Double black;
+    padding: 20px;
+}
+#pf{
+    border: 3px Dashed green;
+    padding: 20px;
+}
+button:hover{
+    background-color: green;
+    cursor: pointer;
+   }
+button{
+    margin: 50px 50px;
+}
+
+section{
+    margin: 20px 20px;
+}
+/*div{
+    padding: 1px 23px 4px;
+}*/
+.burgarmeny{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 33% 33% 33%;
+}

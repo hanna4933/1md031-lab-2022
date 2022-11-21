@@ -2,10 +2,19 @@
     <div id="orders">
       <div id="orderList">
         <div v-for="(order, key) in orders" v-bind:key="'order'+key">
-          #{{ key }}: {{ order.orderItems.join(", ") }}
+          <div v-for="(item) in order.orderItems" v-bind:key="'item'+key">
+            Beställnings info för <span id="beställare"> #{{order.orderId}}</span>:
+          <div v-for="(amount,name) in item" v-bind:key="'name'+key">
+            <p v-if="amount!=0">
+          {{name}} - {{amount}} st
+        </p>
+        </div>
+      </div>
+      Namn: {{order.details.name}}, Kön: {{order.details.kön}}, Email: {{order.details.email}}, Betalsätt: {{order.details.betalsätt}}
+          <hr>
         </div>
         <button v-on:click="clearQueue">Clear Queue</button>
-      </div>
+      </div>P
       <div id="dots" v-bind:style="{ background: 'url(' + require('../../public/img/polacks.jpg')+ ')' }">
           <div v-for="(order, key) in orders" v-bind:style="{ left: order.details.x + 'px', top: order.details.y + 'px'}" v-bind:key="'dots' + key">
             {{ key }}
@@ -36,6 +45,10 @@
   }
   </script>
   <style>
+  #beställare{
+    font-weight:bold;
+  }
+  
   #orderList {
     top:1em;
     left:1em;
